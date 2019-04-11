@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "536583680169",
+    "firebase_url": "https://eduportal-cf98a.firebaseio.com",
+    "project_id": "eduportal-cf98a",
+    "storage_bucket": "eduportal-cf98a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536583680169:android:1dfc65ba3d77d2f5",
+        "android_client_info": {
+          "package_name": "com.group16.example.eduportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536583680169-ecedq2hhg31h47b6f18138i7e5scs7vq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.group16.example.eduportal",
+            "certificate_hash": "b28cd052d1702359274e757e80c4c3916dc6eb99"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWhP2Cln6uGNyIQk2c_NcyTVXAEQDumDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536583680169-g9lgn0la077lj0vd2a1hdu82qr4g5fnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
