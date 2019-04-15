@@ -29,7 +29,8 @@ import java.util.regex.Pattern;
 
 public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
-    private ProgressDialog progressDialog;    EditText pwd_edit;
+    private ProgressDialog progressDialog;
+    EditText pwd_edit;
     EditText mail_edit;
     TextView sign;
     EditText mail_d;
@@ -69,6 +70,7 @@ public class LoginActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(LoginActivity.this);
         progressDialog.setTitle("Logging in...");
         progressDialog.setMessage("It will take few seconds!!");
+        intent=new Intent(LoginActivity.this,MainActivity.class);
         signupBtn= (TextView)findViewById(R.id.signup);
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
